@@ -2,6 +2,8 @@ body{
     color:rgb(89, 129, 214);
     background:rgb(144, 183, 228);
     margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 100px;
 }
 
 header{
@@ -28,9 +30,6 @@ h1{
 p{
     font-size: 20px;
 }
-img{
-    height: 200px;
-}
 .categoria-videos{
     display: flex;
     overflow-x: auto;
@@ -39,4 +38,16 @@ img{
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(0, 238, 255);
+}
+.categoria h2{
+    color: aliceblue;
 }
